@@ -63,7 +63,7 @@ Filters and categorizes papers:
 ### 4. `download_sciencedirect_supplementaries.py`
 Uses the **ScienceDirect API** to retrieve supplementary materials via PII.  
 It builds compact download URLs of the form:
-https://ars-els-cdn-com.ezproxy.{your library.edu}/content/image/1-s2.0-{pii}-mmc{i}.{ext}
+https://ars-els-cdn-com.ezproxy.{your_library.edu}/content/image/1-s2.0-{pii}-mmc{i}.{ext}
 
 
 **Process**
@@ -74,7 +74,6 @@ https://ars-els-cdn-com.ezproxy.{your library.edu}/content/image/1-s2.0-{pii}-mm
 **Inputs**
 - `pii` → cleaned Elsevier PII (e.g., `S0167739X24012345`)  
 - `out_dir` → save location  
-- `session` → optional persistent `requests.Session` for authentication  
 
 **Note:**  
 On the first run, you will have about **1 minute** to complete institutional login through **EZproxy** for access authorization.
