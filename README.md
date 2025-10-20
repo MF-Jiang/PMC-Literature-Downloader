@@ -1,7 +1,3 @@
-# PMC-Literature-Downloader
-A unified Python toolkit for large-scale literature retrieval — automating the download of PDFs and supplementary files from PMC, Unpaywall, Sci-Hub, and ScienceDirect. Includes intelligent filtering, metadata tracking, and institutional-access support.
-
-
 # PMC Literature Downloader
 
 A collection of automated Python scripts for downloading academic articles and supplementary materials from **PubMed Central (PMC)**, **Unpaywall**, **Sci-Hub**, and **ScienceDirect**.  
